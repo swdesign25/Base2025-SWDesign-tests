@@ -40,7 +40,7 @@ egrep -iqe 'hotel|museum|flight|city|budget' $CLFILE
 if [ $? -eq 0 ]; then SALDO=$(($SALDO+1)); fi
 RESULT="$RESULT - $SALDO"
 
-if [ $SALDO -eq $TARGET ]; then
+if [ $SALDO -gt $TARGET ]; then
      echo "SUCCESS($RESULT)"
      exit 0
   else

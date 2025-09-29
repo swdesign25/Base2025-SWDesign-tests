@@ -3,7 +3,7 @@
 echo "Running the original Maven tests ========================"
 
 BASE_REPO="https://github.com/swdesign25/Base2025-Factory-Holiday.git"
-PKG_PATH=" src/test/java/fi/sade25/tla/observer/holidayfactory"
+PKG_PATH="src/test/java/fi/sade25/tla/observer/holidayfactory"
 
 echo " -> 1) clone the original base repository"
 git clone $BASE_REPO .codetest
